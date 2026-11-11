@@ -1,0 +1,27 @@
+# Credentials, private study materials and runtime state
+.env
+.env.*
+!.env.example
+private/
+artifacts/
+logs/
+*.db
+*.db-*
+*.sqlite*
+SECRET_AUDIT_KEY.json
+evaluator_*.json
+EXPERT_BLIND_AUDIT_SHEET.md
+# Local Python/editor state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.idea/
+.vscode/
+*.egg-info/
+build/
+dist/
+.DS_Store
+Thumbs.db
